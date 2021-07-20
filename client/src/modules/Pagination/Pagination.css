@@ -1,0 +1,28 @@
+.paginationDiv{
+    display: flex;
+    margin-top: -10px;
+    justify-content: center;
+}
+.paginationNav{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 60%;
+    background-color: rgba(250, 234, 234, 0.63);
+    border-radius: 50px;
+}
+.pagination{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.paginationLi{
+    padding: 4px;
+    margin: 4px;
+    font-weight: 500;
+}
+.paginationLi:hover{
+    background-color:lightgray;
+}

@@ -1,0 +1,10 @@
+.searchBarInput{
+    border-radius: 20px;
+    height: 33px;
+    width: 25%;
+    padding: 0 20px;
+    background-color: transparent;
+    border: solid 1px gray;
+    position: relative;
+    bottom: 80px;
+}

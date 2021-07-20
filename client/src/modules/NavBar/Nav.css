@@ -1,0 +1,64 @@
+html{
+    position: relative;
+}
+.containerNav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    width: 96%;
+    background-color: rgba(255, 255, 255, 0.959);
+    border: 3px solid #fcfcfc00;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    margin: 20px 35px;
+    font-size: 40px;
+}
+.nav .title{
+    margin-top: 0;
+}
+a{
+    display: flex;
+    align-items: center;
+}
+.imgNav{
+    height: 85px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+.navFilter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 85px;
+}
+.navFilter .filterTitle{
+    display: block;
+    list-style: none;
+    position: absolute;
+    right: 100px;
+    top: 35px;
+    cursor: pointer;
+}
+.navFilter .filterTitle .ul2{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.navFilter .filterTitle:hover .ul2{
+    display: block;    
+    position: absolute;
+    right: -20px;
+    top: -150px;
+    width: 700px;
+}
+.Abtme{
+    margin-left: 700px;
+    font-size: 25px;
+}
